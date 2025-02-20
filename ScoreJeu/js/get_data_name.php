@@ -1,13 +1,13 @@
 <?php
-header("Access-Control-Allow-Origin: *");  // Permet les requêtes depuis n'importe quel domaine
-header("Access-Control-Allow-Methods: GET, POST, OPTIONS");  // Permet certains types de méthodes HTTP
-header("Access-Control-Allow-Headers: Content-Type");  // Permet certains types de headers
+header("Access-Control-Allow-Origin: *");  
+header("Access-Control-Allow-Methods: GET, POST, OPTIONS");  
+header("Access-Control-Allow-Headers: Content-Type");  
 header("Content-Type: application/json; charset=UTF-8");
 
-$host = "sql305.infinityfree.com"; // Remplace par ton hôte MySQL
-$dbname = "if0_38355049_scores";
-$username = "if0_38355049"; // Remplace par ton utilisateur MySQL
-$password = "6U9miuecmb"; // Remplace par ton mot de passe MySQL
+$host =  //A REMPLACER
+$dbname =  //A REMPLACER
+$username =  //A REMPLACER
+$password =  //A REMPLACER
 
 $conn = new mysqli($host, $username, $password, $dbname);
 
