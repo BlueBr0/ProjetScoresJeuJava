@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Scores</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src='js/ScoreManager.js'> </script>
+        <link href="style/style.css" async rel="stylesheet" />
+    </head>
+    <body>
+
+        <div id="header" class="header">
+            <!--Header-->
+            <div class="pixeltext spacing textHeader">
+                <h3><a href="#" id="score">Scores</a></h3>
+            </div>
+            <div class="pixeltext textHeader">
+                <h3><a href="#" id="about">About</a></h3>
+            </div>
+        </div>
+
+        <div id="scoreBoxContainer">
+             <!--Selection-->
+            <div id="buttonsContainer" class="buttonsContainer">
+                <button class="button" id="outskirtsButton">
+                    <a>outskirts</a>
+                </button>
+                <button class="button" id="forestButton">
+                    <a>forest</a>
+                </button>
+                <button class="button" id="noMansLandButton">
+                    <a>no man's land</a>
+                </button>
+                <button class="button" id="ghostVillageButton">
+                    <a>ghost village</a>
+                </button>
+                <button class="button" id="wastelandButton">
+                    <a>wasteland</a>
+                </button>            
+            </div>
+
+
+            
+
+            
+
+            <!--Search Container-->
+            <div id="searchSection" class="search">
+                <input class="pixeltext searchStyle" type="text" id="gsearch">
+                <button class="button" id="searchButton">
+                    <a>search</a>
+                </button>  
+            </div>
+
+            
+
+            <!--Score Info-->
+            <div id="scoreBoxContainerScoresCartes" class="scoreBoxContainer">
+                <div class="box">
+
+                    <h3 class="pixeltext titleScore">Carte 1</h3>
+                    <div class="separateur"></div>
+                    <div id="carte1" class="pixeltext"></div>
+                    
+                </div>    
+                
+                <div class="box">
+
+                    <h3 class="pixeltext titleScore">Carte 2</h3>
+                    <div class="separateur"></div>
+
+                    <div id="carte2" class="pixeltext"></div>
+                    
+                </div>  
+            </div>
+
+        
+
+        </div>
+
+
+       
+
+        <!--About Section-->
+        <div id="aboutSection">
+            <div class="pixeltext box">
+                <h2>A propos :</h2>
+                <p>
+                    Ce site web permet de consulter les scores enregistres dans la base de données 
+                    via le jeu d'aventure. Il offre une interface simple et intuitive pour suivre vos 
+                    progres et ceux des autres joueurs. 
+                </p>
+                <p>
+                    La police utilisee sur ce site (Four Pixels Font) provient de l'URL suivante : 
+                    <a class="underlineText" href="https://mounirtohami.itch.io/four-pixels-font" target="_blank">ici</a>.
+                </p>
+            </div>
+   
+        </div>
+    
+    </body>
+   
+</html>
