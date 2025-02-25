@@ -17,4 +17,8 @@ Ce projet est un complément au **Jeu d'Aventure Java**, permettant d'afficher l
 - Mise à jour automatique des scores.
 - Interface simple et efficace.
 
+## 📌 Fonctionnalités à ajouter
+- Création de compte
+- Consultation de ses propres scores
+  
 
